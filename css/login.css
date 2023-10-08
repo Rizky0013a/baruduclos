@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #17ca13;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.card{
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    width: 450px;
+    box-shadow: 0 2px 18px -2px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.card-header{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+.form-input{
+    margin-top: 10px;
+}
+.form-input input{
+    background: transparent;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+.kode{
+    background-color: red;
+    color: black;
+    display: inline-block;
+    margin-left: 70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding: 4px;
+    font-size: 24px;
+}
+.form-kode{
+    display: inline-block;
+}
+.form-kode input{
+    background: transparent;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 225px;
+    height: 35px;
+    display: block;
+    /* margin: auto; */
+    margin-left: 10px;
+}
+.btn{
+    height: 35px;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    display: block;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+}

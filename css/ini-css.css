@@ -31,10 +31,10 @@ body {
 }
 
 .logo a {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   float: left;
-  font-family: Impact;
+  font-family: 'pricedown', impact;
   color: greenyellow;
 }
 
@@ -99,6 +99,14 @@ section {
   color: black;
 }
 
+
+.kolom2 .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: black;
+}
+
 h2 {
   font-family: 'comic sans ms';
   font-weight: 800;
@@ -134,7 +142,27 @@ a.tbl-biru {
   font-weight: bold;
 }
 
+a.tbl-biru-new {
+  border-radius: 8px;
+  width: 40%;
+  padding: 10px 20px 10px 20px;
+  margin: auto;
+  display: block;
+  margin-top: 3%;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: blue;
+  color: #FFFFFF;
+}
+
 a.tbl-biru:hover {
+  background: green;
+  text-decoration: none;
+}
+
+
+a.tbl-biru-new:hover {
   background: green;
   text-decoration: none;
 }
